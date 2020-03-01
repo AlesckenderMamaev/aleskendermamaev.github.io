@@ -1,0 +1,350 @@
+#logo {
+	width: 120px;
+	height: 120px;
+	float: left;
+	/* margin-left: 0;
+	padding-right:30px; */
+}
+
+body{
+	/* display:flex;
+	flex-direction:column; */
+	background-color:#FFF8DC;
+	/* margin:0; */
+}
+
+h1{
+	font-size:55px;
+}
+
+h2{
+	font-size:50px;
+}
+
+nav{	
+	font-size:30px;
+	background-color:#FFE4C4;
+	text-align:left;
+	/* margin:0;
+	margin-top:10px;
+	padding:10px;
+	display:flex;
+	flex-direction:column;
+	order:1;
+	flex:1; */
+}
+
+#coffee{
+    width: auto;
+	height: auto;
+	float: left;
+}
+
+#Description, #Reviews {
+    font-size:40px;
+	background-color:#FFE4C4;
+}
+
+#links{
+	font-size:40px;
+	background-color:#FFE4C4;
+	/* padding:10px;
+	margin: 0;
+	margin-top:10px; 
+	order:2;
+	flex:1;*/
+}
+
+#Form{
+	background-color:#FFE4C4;
+	font-size:40px;
+	/* padding:10px;
+	margin:0;
+	margin-top:10px;
+	font-size:30px;
+	order:3;
+	flex:1;*/
+}
+
+.HeaderText{
+	font-family: Impact;
+	font-size:50px;
+}
+
+#Table{
+	background-color:#FFE4C4;
+	font-size:40px;
+	/* padding:10px;
+	margin:0;
+	margin-top:10px;
+	order:4;
+	flex:1; */
+}
+
+table{
+	font-size:30px;
+	width:100%;
+}
+
+.NeChet{
+background-color:#FFEBCD;
+}
+
+footer, header{
+	background-color:#FFDEAD;
+	/* padding: 10px;
+	margin:0; */
+}
+
+
+
+td,th{
+border: 1px solid rgb(0, 0, 0);
+text-align: center;
+}
+
+#MapRC{
+	width:auto;
+ 	height:auto;
+}
+
+#Apple{
+	width:auto;
+	height:auto;
+}
+
+/* @media screen and (min-width:800px) and (min-device-width:800px)  {
+
+#logo {
+	width: 150px;
+	height: 150px;
+	margin-left: 25%;
+	padding-right:70px;
+}
+
+body{
+	display:flex;
+	flex-direction:column;
+}
+
+
+
+nav{	
+	max-width:960px;
+	width:100%;
+	margin: 0 auto;
+	clear:both;
+	padding:10px;
+	margin-top:10px;
+	display:flex;
+	flex-direction:row;
+	text-align: center;
+	order:1;
+	flex:1;
+}
+
+nav a{
+flex:1;
+}
+
+.links{
+	font-size:20px;
+	max-width:960px;
+	width:100%;
+	padding:10px;
+	margin: 0 auto;
+	margin-top:10px;
+	order:2;
+	flex:1;
+}
+
+.Form{
+	max-width:960px;
+	width:100%;
+	font-size:20px;
+	background-color:#FFE4C4;
+	padding:10px;
+	margin: 0 auto;
+	margin-top:10px;
+	order:4;
+	flex:1;
+}
+
+.HeaderText{
+	font-size:55px;
+}
+
+.Table{
+	max-width:960px;
+	width:100%;
+	padding:10px;
+	margin:0 auto;
+	margin-top:10px;
+	order:3;
+	flex:1;
+}
+
+table{
+	font-size:20px;
+}
+
+footer{
+	margin-top:10px;
+	order:5;
+	flex:1;
+}
+
+ footer, header{
+	max-width:100%;
+	width:100%;
+}
+
+header{
+	order:0;
+	flex:1;
+}
+
+#MapRC{
+	width:auto;
+ 	height:auto;
+}
+
+#Apple{
+	width:auto;
+	height:auto;
+}
+
+}
+*/
+
+@media (min-width: 576px) {
+	/* CSS для: 576px <= ширины <= 767px */
+  }
+   
+  /* md-устройства (больше или равно 768px) */
+  @media (min-width: 768px) {
+	/* CSS для: 768px <= ширины <= 991px */
+  }
+   
+  /* lg-устройства (больше или равно 992px) */
+  @media (min-width: 992px) {
+	/* CSS для: 992px <= ширины <= 1119px */
+	#logo {
+		width: 200px;
+		height: 200px;
+	}
+	
+	#Description , #Reviews {
+        font-size:20px;
+		max-width:960px;
+    }
+
+    h1{
+        font-size:35px;
+    }
+    
+    h2{
+        font-size:30px;
+    }
+	
+	nav{	
+		max-width:960px;
+		clear:both;
+		font-size:20px;
+	}
+	
+	#links{
+		font-size:20px;
+		max-width:960px;
+	}
+	
+	#Form{
+		max-width:960px;
+		font-size:20px;
+		background-color:#FFE4C4;
+	}
+	
+	.HeaderText{
+		font-size:70px;
+	}
+	
+	#Table{
+		max-width:960px;
+	}
+	
+	table{
+		font-size:20px;
+	}
+	
+	#MapRC{
+		width:auto;
+		height:auto;
+	}
+	
+	#Apple{
+		width:auto;
+		height:auto;
+	}
+  }
+   
+  /* xl-устройства (больше или равно 1200px) */
+  @media (min-width: 1200px) {
+	/* CSS для: ширины >= 1200px */
+	#logo {
+		width: 250px;
+		height: 250px;
+	}
+	
+	#Description , #Reviews  {
+        font-size:20px;
+		max-width:960px;
+    }
+
+    h1{
+        font-size:35px;
+    }
+    
+    h2{
+        font-size:30px;
+    }
+	
+	nav{	
+		max-width:960px;
+		clear:both;
+	}
+	
+	#links{
+		font-size:20px;
+		max-width:960px;
+	}
+	
+	#Form{
+		max-width:960px;
+		font-size:20px;
+		background-color:#FFE4C4;
+	}
+	
+	.HeaderText{
+		font-size:100px;
+	}
+	
+	#Table{
+		max-width:960px;
+	}
+	
+	table{
+		font-size:20px;
+	}
+
+	#MapRC{
+		width:auto;
+		 height:auto;
+	}
+	
+	#Apple{
+		width:auto;
+		height:auto;
+	}
+  }
+
+
